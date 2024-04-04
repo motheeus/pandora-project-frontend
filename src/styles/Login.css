@@ -1,0 +1,84 @@
+html,body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-fundo{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background: rgb(236, 236, 236);
+}
+
+.login-maincontainer{
+    margin-left: 10vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: -1px 2px 24px -9px rgba(0,0,0,0.53);
+    border-radius: 10px;
+}
+
+.login-p{
+    color: #626262;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+.login-input{
+    border: 1px solid #c2c2c2;
+    padding: 6px 8px;
+    border-radius: 6px;
+    width: 335px;
+    background-color: #f7f7f7;
+    height: 30px;
+}
+
+.login-input:focus{
+    outline-color: #0070E0;
+}
+
+.login-botao-entrar{
+    font-family: 'Poppins';
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    height: 50px;
+    padding: 8px;
+    color: white;
+    background-color: #0070E0;
+    margin-top: 35px;
+    font-size: 15px;
+}
+
+.login-botao-entrar:hover{
+    background-color: #0058af;
+    transition: 0.5s;
+}
+
+.login-tela-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 30px;
+}
+
+.login-tela-login-usuario{
+    margin-bottom: 20px;
+}
+
+.login-logo{
+    margin-bottom: 55px;
+}
+
+.login-logo a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.login-logo img{
+    display: inline-block;
+}

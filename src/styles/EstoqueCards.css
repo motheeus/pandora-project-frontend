@@ -1,0 +1,99 @@
+.estoqueCards-id{
+    background-color: #0085D0;
+    color: white;
+    border-radius: 8px;
+    padding: 2px 3px;
+}
+
+.estoqueCards-container {
+    width: 100%;
+    height: 70px;
+    border-bottom: solid 1px rgb(206, 206, 206);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-around;
+}
+
+.estoqueCards-imgemarca {
+    display: flex;
+    gap: 10px
+}
+
+.estoqueCards-container:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.estoqueCards-container img {
+    height: 50px;
+    width: 80px;
+    border-radius: 8px;
+}
+
+.estoqueCards-marcamodelo{
+    display: flex;
+    flex-direction: column;
+}
+
+.estoqueCards-divisao {
+    height: 30px;
+    width: 1px;
+    background-color: rgb(175, 175, 175);
+}
+
+.estoqueCards-marcamodelo span:first-child{
+    font-weight: 700;
+}
+
+.estoqueCards-marcamodelo span:nth-child(2){
+    font-size: 14px;
+}
+
+.estoqueCards-carinfo, .estoqueCards-processoinfo {
+    display: flex;
+    gap: 15px
+}
+
+.estoqueCards-carinfo .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+.estoqueCards-carinfo .info span:first-child{
+    font-weight: 600;
+}
+
+.estoqueCards-processoinfo .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+    
+.estoqueCards-processoinfo .info span:first-child{
+    font-weight: 600;
+}
+
+.estoqueCards-statuspreco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.estoqueCards-statuspreco .status span{
+    background-color: #1c9700;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.estoqueCards-statuspreco .preço {
+    font-weight: 700;
+    font-size: 20px;
+}

@@ -1,0 +1,128 @@
+.parte-superior {
+  height: 61px;
+  background-color: #F3F3F3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.parte-superior input {
+  border: solid #9E9E9E 1.5px;
+  border-radius: 6px;
+  height: 38px;
+  width: 456px;
+  padding: 0 0 0 10px;
+}
+.parte-superior .logo a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.parte-superior .logo:hover {
+  opacity: 0.6;
+}
+.parte-superior .login-area {
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.parte-superior .login-area:hover {
+  background-color: #d3d3d3;
+}
+.parte-superior .login-area:hover .user-dropdown {
+  display: block;
+}
+.parte-superior .login-area .login-area-wrapper {
+  display: flex;
+  align-items: center;
+}
+.parte-superior .login-area .login-area-wrapper .login-area-userImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D9D9D9;
+  height: 38px;
+  width: 38px;
+  border-radius: 8px;
+  margin: 0 10px 0 0;
+}
+.parte-superior .login-area .login-area-wrapper .login-area-userData {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 0 0;
+}
+.parte-superior .login-area .login-area-wrapper .login-area-userData .login-area-userData-name {
+  font-weight: 700;
+}
+
+.parte-inferior {
+  height: 63px;
+  background-color: #EBEBEB;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  font-weight: 600;
+}
+.parte-inferior .logo {
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+}
+.parte-inferior nav {
+  display: flex;
+  align-items: center;
+}
+.parte-inferior nav a {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.parte-inferior nav a:hover {
+  border-bottom: solid #0085D0;
+}
+.parte-inferior .active {
+  border-bottom: solid #0085D0;
+}
+
+.user-dropdown {
+  display: none;
+  right: 30px;
+  top: 56px;
+  position: absolute;
+  background-color: white;
+  font-size: 13px;
+  border-radius: 6px;
+  padding: 10px;
+  width: 200px;
+  color: #767676;
+  box-shadow: 0px 1px 22px -1px rgba(0, 0, 0, 0.1);
+}
+.user-dropdown ul {
+  list-style-type: none;
+  padding: 0;
+}
+.user-dropdown li {
+  padding: 5px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.user-dropdown li:hover {
+  background-color: #f8f8f8;
+}
+.user-dropdown .logout {
+  color: rgb(255, 57, 57);
+}
+.user-dropdown .li-separador {
+  padding: 0;
+  border-top: solid 1px #e9e9e9;
+  width: auto;
+  margin: 5px 5px;
+}
+.user-dropdown .li-icons {
+  height: 15px;
+  width: 15px;
+  padding-right: 5px;
+  color: #767676;
+}/*# sourceMappingURL=Header.css.map */

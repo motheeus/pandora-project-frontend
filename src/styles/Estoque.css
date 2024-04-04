@@ -1,0 +1,18 @@
+.estoque-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.estoque-grid-wrapper {
+    display: grid;
+    grid-template-columns: 300px 1300px;
+    gap: 10px
+}
+
+.estoque-processos-container{
+    width: 100%;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    overflow: hidden;
+}
