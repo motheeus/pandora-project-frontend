@@ -1,10 +1,8 @@
-const h1style = {
-    margin: "none",
-}
+
 
 const PageTitle = ({page}) => {
   return (
-    <h1 style={h1style}>{page}</h1>
+    <h1 style={{margin: "none"}}>{page}</h1>
   )
 }
 
