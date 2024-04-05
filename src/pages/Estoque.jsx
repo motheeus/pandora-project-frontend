@@ -11,7 +11,7 @@ const Estoque = () => {
       <div className="estoque-container">
         <div className="estoque-grid-wrapper">
           <div className="estoque-filter-container">
-            <button>NOVO PROCESSO</button>
+            <button>NOVO PROCESSOS</button>
           </div>
           <div className="estoque-processos-container">
             <EstoqueCards/>
