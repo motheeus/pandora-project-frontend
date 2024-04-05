@@ -6,6 +6,12 @@ const AuthProvider = ( {children}) => {
     
     const [user, setUser] = useState([])
 
+    useEffect(() => {
+        const getStorage = localStorage.getItem('pandora_user')
+        setUser(JSON.parse(getStorage))
+    
+      },[])
+
     return (
         <AuthContext.Provider value={{user, setUser}}>
             {children}

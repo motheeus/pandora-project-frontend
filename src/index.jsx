@@ -11,6 +11,6 @@ root.render(
   <React.StrictMode>
     <Provider>
         <RouterManager/>
-      </Provider>
+    </Provider>
   </React.StrictMode>
 );
