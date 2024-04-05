@@ -41,11 +41,11 @@ const UserDropDown = () => {
   }
 
   return (
-    <div class="user-dropdown">
+    <div className="user-dropdown">
       <ul>
           <a href=""><li><FaCog className="li-icons"/>Configurações da Conta</li></a>
           {user.cargo =="admin" &&<a href=""><li><MdOutlineDashboard className="li-icons"/>Painel de Controle</li></a>}
-          <p class="li-separador"></p>
+          <p className="li-separador"></p>
           <a href="" onClick={logout}><li className="logout"><MdOutlineLogout className="li-icons"/>Sair</li></a>
       </ul>
     </div>
