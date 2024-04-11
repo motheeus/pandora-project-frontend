@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import VitrineVirtual from './pages/VitrineVirtual';
 import Estoque from './pages/Estoque';
 import Login from './pages/Login.jsx';
+import Dashboard from './pages/Dashboard.jsx';
 import { PrivateRoute, RedirectLogin } from './PrivateRoute.jsx';
 
 function RouterManager() {
@@ -17,6 +18,7 @@ function RouterManager() {
             <Route path="/" element={<Home />} />
             <Route path="/vitrine" element={<VitrineVirtual />} />
             <Route path="/estoque" element={<Estoque />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Route>
         </Routes>
       </BrowserRouter>

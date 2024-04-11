@@ -1,0 +1,38 @@
+.modal-overlay{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(65, 65, 65, 0.68);
+    top: 124px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 124px);
+    display: flex;
+    justify-content: center;
+}
+
+.modal-wrapper {
+    margin-top: 50px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-header{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.modal-header svg {
+    font-size: 25px;
+}
+
+.modal-header svg:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}

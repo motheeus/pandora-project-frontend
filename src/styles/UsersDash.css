@@ -1,0 +1,56 @@
+.usersdash-create-user{
+    background-color: #0085D0;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 5px
+}
+
+.usersdash-button{
+    background-color: #c0c0c0;
+    border: none;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 5px
+}
+
+
+.usersdash-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.usersdash-header {
+    display: flex;
+    gap: 10px
+}
+
+.usersdash-users{
+    margin-top: 10px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    padding: 0px 15px;
+}
+
+.usersdash-users table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.usersdash-users tr{
+    height: 50px;
+    border-radius: 5px;
+}
+
+.usersdash-users tr:hover{
+    background-color: #dadada;
+}
