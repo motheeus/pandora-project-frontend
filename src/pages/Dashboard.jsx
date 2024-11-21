@@ -17,13 +17,7 @@ const Dashboard = () => {
             onClick={() => setToggleState(1)}
             className={toggleState === 1 ? "dashboard-destaque" : ""}
           >
-            <FaUsers /> USUÁRIOS
-          </span>
-          <span
-            onClick={() => setToggleState(2)}
-            className={toggleState === 2 ? "dashboard-destaque" : ""}
-          >
-            <BiBuildings /> FILIAIS
+            <FaUsers /> COLABORADORES
           </span>
         </div>
         <div className="dashboard-right-panel">

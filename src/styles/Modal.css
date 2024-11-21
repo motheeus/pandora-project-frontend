@@ -15,6 +15,7 @@
     background-color: rgb(238, 238, 238);
     border-radius: 5px;
     padding: 20px;
+    overflow: hidden;
 }
 
 .modal-content{
@@ -35,4 +36,8 @@
 .modal-header svg:hover{
     opacity: 0.5;
     cursor: pointer;
+}
+
+.modal-children {
+    flex-grow: 3;
 }

@@ -4,10 +4,12 @@
     margin-top: 40px;
 }
 
-.estoque-grid-wrapper {
-    display: grid;
-    grid-template-columns: 300px 1300px;
-    gap: 10px
+.estoque-grid-wrapper{
+    width: 100%;
+}
+
+.estoque-filter-container{
+    margin-bottom: 10px;
 }
 
 .estoque-processos-container{
@@ -15,4 +17,23 @@
     background-color: #eeeeee;
     border-radius: 10px;
     overflow: hidden;
+}
+
+.estoque-addprocess-button{
+    border-radius: 10px;
+    border: solid 1px;
+    background-color: #0085D0;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.estoque-addprocess-button:hover{
+    background-color: #006dac;
+    cursor: pointer;
+    transition: 0.5s;
 }

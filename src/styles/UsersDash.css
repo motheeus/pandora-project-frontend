@@ -38,7 +38,7 @@
     margin-top: 10px;
     background-color: rgb(252, 252, 252);
     border-radius: 10px;
-    padding: 0px 15px;
+    padding: 10px 15px;
 }
 
 .usersdash-users table{
@@ -51,6 +51,63 @@
     border-radius: 5px;
 }
 
-.usersdash-users tr:hover{
-    background-color: #dadada;
+.usersdash-users tr:not(:first-child):hover{
+    background-color: #ebebeb;
+}
+
+.userscard-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.userscard-buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.userscard-buttons svg {
+    font-size: 25px;
+}
+
+.userscard-buttons-delete {
+    color: rgb(160, 28, 28);
+}
+
+
+.userscard-modal-container {
+    height: 100%;
+}
+
+.userscard-modal-title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.userscard-modal-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5px
+}
+
+.userscard-modal-button-delete {
+    color: white;
+    background-color: rgb(209, 24, 24);
+    font-weight: 800;
+}
+
+.userscard-modal-buttons button{
+    border-radius: 4px;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.userscard-modal-button-edit {
+    color: white;
+    background-color: #0085D0;
+    font-weight: 800;
 }

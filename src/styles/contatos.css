@@ -1,0 +1,11 @@
+.contatos-container{
+    margin-top: 20px;
+    background-color: #ebebeb;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contatos-container{
+    display: flex;
+    flex-direction: column;
+}

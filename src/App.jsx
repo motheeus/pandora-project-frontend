@@ -12,7 +12,7 @@ function App() {
       <div className="app">
         <Header />
         <div className="content">
-          <Outlet />
+          <div className="outlet-scroll"><Outlet/></div>
           <ToastContainer position="bottom-right"/>
         </div>
       </div>

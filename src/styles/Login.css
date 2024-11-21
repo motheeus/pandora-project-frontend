@@ -15,7 +15,7 @@ form{
     width: 100%;
     justify-content: center;
     align-items: center;
-    background: rgb(236, 236, 236);
+    background: rgb(243, 243, 243);
     
 }
 
@@ -23,9 +23,9 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
-    box-shadow: -1px 2px 24px -9px rgba(0,0,0,0.53);
-    border-radius: 10px;
+    background-color: rgb(255, 255, 255);;
+    border-radius: 15px;
+    border: 1px solid rgb(165, 165, 165);
 }
 
 .login-p{
@@ -49,19 +49,20 @@ form{
 
 .login-botao-entrar{
     font-family: 'Poppins';
-    font-weight: 600;
+    font-weight: 500;
     border: none;
-    border-radius: 6px;
+    border-radius: 10px;
     height: 50px;
     padding: 8px;
-    color: white;
-    background-color: #0070E0;
+    background-color: #0080ff;
+    color: #fff;
     margin-top: 35px;
     font-size: 15px;
 }
 
 .login-botao-entrar:hover{
     background-color: #0058af;
+    color: white;
     transition: 0.5s;
 }
 

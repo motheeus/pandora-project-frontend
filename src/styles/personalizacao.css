@@ -1,0 +1,46 @@
+.personalizacao-definicoes input {
+    border-radius: 5px;
+    border: solid #949494 1px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.personalizacao-definicoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.personalizacao-definicoes-gerais{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.personalizacao-definicoes-gerais-titulo, .personalizacao-landingpageoptions-titulo{
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.personalizacao-landingpageoptions{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.personalizacao-botaoenviar{
+    margin-top: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #0085D0;
+    width: 320px;
+    font-size: 18px;
+    height: 50px;
+}
+
+.personalizacao-botaoenviar:hover{
+    background-color: #00639c;
+    cursor: pointer;
+}

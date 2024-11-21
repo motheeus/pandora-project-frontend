@@ -1,0 +1,129 @@
+.modal-addprocess-footer{
+    background-color: white;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: -19px;
+    margin-right: -19px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.modal-addprocess-inputcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.modal-addprocess-container-form{
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 495px;
+}
+
+.modal-addprocess-addbutton{
+    background: #0085D0;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 500;
+    border: none;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.modal-addprocess-addbutton:hover{
+    background-color: #004c79;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.modal-addprocess-addbutton svg{
+    font-size: 16px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.modal-addprocess-input-default {
+    border-radius: 5px;
+    border: solid #949494 1px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.modal-addprocess-container-infogeral{
+    display: flex;
+}
+.modal-addprocess-container-right{
+    margin-left: 20px;
+}
+
+.modal-addprocess-inputcontainer-ano{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.modal-addprocess-anocontainer{
+    display: flex;
+}
+
+.modal-addprocess-container{
+    font-size: 15px;
+}
+
+.modal-addprocess-titles{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.modal-addprocess-titles:not(:first-child) {
+    margin-top: 40px;
+}
+
+.modal-addprocess-caracteristicas-container{
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.modal-addprocess-addopcionais{
+    margin-left: 10px;
+    border-radius: 5px;
+    border: solid white 1px;
+    padding: 5px 15px;
+    background-color: #0085D0;
+    color: white;
+}
+
+.modal-addprocess-opcionais-container{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.modal-addoptional-optionalcontainer{
+    display: flex;
+    font-family: 10px;
+    border-radius: 20px;
+    background-color: #d4d4d4;
+    border: solid #868686 1px;
+    color: rgb(0, 0, 0);
+    padding: 3px 10px;
+    gap: 10px
+}
+
+.modal-addoptional-removeoptional{
+    border-radius: 50%;
+    padding: 1px 5px;
+    font-family: 1px;
+    border: none;
+}
+
+.modal-addoptional-removeoptional:hover{
+    background-color: #6d6d6d;
+    transition: 0.5s;
+    color: white;
+}

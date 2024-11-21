@@ -33,7 +33,7 @@ const LoginArea = ({ nomeUsuario, userId }) => {
 const UserDropDown = () => {
   const {user, setUser} = useContext(AuthContext)
   const navigate = useNavigate()
-
+  
   const logout = () => {
     localStorage.removeItem('pandora_user')
     setUser(null)
@@ -43,7 +43,6 @@ const UserDropDown = () => {
   return (
     <div className="user-dropdown">
       <ul>
-          <a href=""><li><FaCog className="li-icons"/>Configurações da Conta</li></a>
           {user.cargo =="admin" &&<a onClick={() => navigate('/dashboard')}href=""><li><MdOutlineDashboard className="li-icons"/>Painel de Controle</li></a>}
           <p className="li-separador"></p>
           <a href="" onClick={logout}><li className="logout"><MdOutlineLogout className="li-icons"/>Sair</li></a>
@@ -79,9 +78,10 @@ export default function Header() {
 
             <NavLink to="/estoque">Estoque</NavLink>
 
-            <NavLink to="/vitrine">Vitrine Virtual</NavLink>
+            <NavLink to="/personalizacao">Personalização</NavLink>
 
-            <NavLink to="/clientes">Clientes</NavLink>
+            <NavLink to="/contatos">Solicitações de Contato</NavLink>
+
           </nav>
         </div>
       </div>
